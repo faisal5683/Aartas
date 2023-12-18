@@ -10,9 +10,9 @@ function App() {
       params: {
         doctor_id: 1
       }
-    }).then((respone) => console.log(respone))
-
-    setData(data);
+    })
+      .then((respone) => setData(respone))
+      .catch(err => console.error(err))
   }
 
   useEffect(() => {
