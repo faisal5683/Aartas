@@ -10,7 +10,8 @@ function App() {
       params: {
         doctor_id: 1
       }
-    });
+    }).then((respone) => console.log(respone))
+
     setData(data);
   }
 
