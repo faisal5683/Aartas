@@ -1,0 +1,44 @@
+.show_date,
+.show_time {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.show_date button {
+    flex: 1 0 calc(20% - 10px);
+    max-width: calc(20% - 10px);
+    box-sizing: border-box;
+}
+
+.show_time {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.show_time button {
+    flex: 1 0 calc(16.6667% - 10px);
+    max-width: calc(16.6667% - 10px);
+    box-sizing: border-box;
+}
+
+.text {
+    text-align: left;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.date_btn,
+.time_btn {
+    height: 50px;
+}
+
+.selected_btn {
+    background-color: #4326ad;
+}
+
+.slot_avai {
+    font-size: 15px;
+    font-family: monospace;
+}
